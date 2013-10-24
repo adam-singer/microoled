@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroOLED", "MicroOLED\MicroOLED.csproj", "{43370E5B-FFCB-4FA4-9E16-8D11A5AB3412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroOLEDTest", "MicroOLEDTest\MicroOLEDTest.csproj", "{5BE3F033-218E-411E-AABA-ED06C56DF89A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F10B6495-C0AD-4047-8588-B85B9E8C6431}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		MicroOLED.vsmdi = MicroOLED.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MicroOLED.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43370E5B-FFCB-4FA4-9E16-8D11A5AB3412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43370E5B-FFCB-4FA4-9E16-8D11A5AB3412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43370E5B-FFCB-4FA4-9E16-8D11A5AB3412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43370E5B-FFCB-4FA4-9E16-8D11A5AB3412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE3F033-218E-411E-AABA-ED06C56DF89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE3F033-218E-411E-AABA-ED06C56DF89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE3F033-218E-411E-AABA-ED06C56DF89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE3F033-218E-411E-AABA-ED06C56DF89A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
